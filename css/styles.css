@@ -2,38 +2,68 @@
   --primaty-color-heading: #2e2f42;
 } */
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 .link {
   text-decoration: none;
 }
+
 .list {
   list-style: none;
 }
+
 .contact {
   text-decoration: none;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  width: 1188px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
 /* ======================COMPONENTS======================  */
+section {
+  outline: 1px solid tomato;
+}
+
 .heading {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .heading-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .section-text {
   font-weight: 400;
   font-size: 16px;
@@ -41,14 +71,39 @@ body {
   color: #434455;
 }
 
-/*====================== LOGO ======================  */
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px; */
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.img {
+  margin-bottom: 32px;
+}
+
+/*====================== HEADER ======================  */
+.header-nav {
+  padding-top: 24px;
+}
+
 .logo-site {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -56,14 +111,13 @@ body {
 .part-logo {
   color: #2e2f42;
 }
-/*====================== PAGES ON SITE ====================== */
 .link-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
 }
-/*====================== CONTACTS ====================== */
+/*====================== ADDRESS ====================== */
 .link-item:focus,
 .link-item:hover {
   color: #404bbf;
@@ -85,41 +139,38 @@ body {
 .hero {
   background-color: #2e2f42;
 }
+
 .hero-text {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
 }
-.btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  border-radius: 4px;
-  padding: 16px 32px;
-  gap: 10px;
-  background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
+
+.hero-btn {
+  margin-bottom: 118px;
 }
-.btn:hover,
-.btn:focus {
-  background-color: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+
 /*====================== SOLUTION ====================== */
+.solution-list {
+  margin-bottom: 120px;
+}
 
 /*====================== WHAT ARE WE DOING ====================== */
+.heading-proj {
+  margin-bottom: 72px;
+}
+
+/*====================== TEAM ====================== */
+.heading-team {
+  margin-bottom: 72px;
+}
+
 .team {
   background-color: #f4f4fd;
 }
+
 .team-list {
   background-color: #ffffff;
 }
@@ -129,17 +180,26 @@ body {
   background-color: #f4f4fd;
   color: #4d5ae5;
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: #ffffff;
 }
+
+.btn-list {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
 /*====================== FOOTER  ======================*/
 .footer {
   background-color: #2e2f42;
+  height: 312px;
 }
+
 .footer-logo {
   color: #f4f4fd;
 }
+
 .footer-text {
   font-weight: 400;
   font-size: 16px;
