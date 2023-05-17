@@ -145,6 +145,7 @@ section {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-top: 188px;
   margin-bottom: 48px;
 }
 
@@ -154,7 +155,8 @@ section {
 
 /*====================== SOLUTION ====================== */
 .solution-list {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 /*====================== WHAT ARE WE DOING ====================== */
@@ -165,6 +167,7 @@ section {
 /*====================== TEAM ====================== */
 .heading-team {
   margin-bottom: 72px;
+  padding-top: 120px;
 }
 
 .team {
@@ -172,6 +175,10 @@ section {
 }
 
 .team-list {
+  padding-bottom: 120px;
+}
+
+.team-item {
   background-color: #ffffff;
 }
 
@@ -187,13 +194,21 @@ section {
 }
 
 .btn-list {
-  margin-top: 96px;
+  padding-top: 96px;
   margin-bottom: 72px;
+}
+
+.portfolio-list {
+  padding-bottom: 120px;
 }
 /*====================== FOOTER  ======================*/
 .footer {
   background-color: #2e2f42;
   height: 312px;
+  padding-top: 100px;
+}
+
+.footer-link {
 }
 
 .footer-logo {
@@ -205,4 +220,5 @@ section {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  padding-top: 16px;
 }
