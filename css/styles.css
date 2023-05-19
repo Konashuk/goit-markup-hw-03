@@ -48,7 +48,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 /* ======================COMPONENTS======================  */
 
@@ -108,6 +108,10 @@ body {
 }
 
 /*====================== HEADER ======================  */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-nav {
 }
 .navigation {
@@ -219,12 +223,12 @@ body {
 }
 /*====================== TEAM ====================== */
 .team {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .heading-team {
   margin-bottom: 72px;
-  padding-top: 120px;
 }
 
 .team {
@@ -242,7 +246,7 @@ body {
 }
 
 .team-position {
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .team-item {
@@ -300,6 +304,7 @@ body {
 }
 
 .footer-link {
+  margin-bottom: 16px;
 }
 
 .footer-logo {
@@ -311,5 +316,4 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
-  padding-top: 16px;
 }
