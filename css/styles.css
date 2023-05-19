@@ -304,6 +304,7 @@ body {
 }
 
 .footer-link {
+  display: block;
   margin-bottom: 16px;
 }
 
@@ -312,6 +313,8 @@ body {
 }
 
 .footer-text {
+  max-width: 264px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
