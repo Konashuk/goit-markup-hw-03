@@ -189,19 +189,22 @@ body {
 }
 
 .hero-text {
+  margin-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
 }
 
 .hero-btn {
+  margin-right: auto;
+  margin-left: auto;
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-bottom: 118px;
 }
 
 /*====================== SOLUTION ====================== */
